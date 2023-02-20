@@ -3,7 +3,7 @@ package tests;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
-import pages.HesapMakinasiPage;
+import activities.HesapMakinasiPage;
 import utilities.Driver;
 
 public class US001 {
