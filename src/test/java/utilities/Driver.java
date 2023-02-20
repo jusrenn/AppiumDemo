@@ -1,15 +1,16 @@
 package utilities;
 
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 
 public class Driver {
-    private static AndroidDriver driver;
+    private static AndroidDriver<AndroidElement> driver;
 
-    public static AndroidDriver getDriver() {
+    public static AndroidDriver<AndroidElement> getDriver() {
 
         if(driver == null) {
             DesiredCapabilities cap = new DesiredCapabilities();
